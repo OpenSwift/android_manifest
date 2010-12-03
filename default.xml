@@ -41,7 +41,8 @@
   <project path="device/htc/passion-common" name="CyanogenMod/android_device_htc_passion-common" remote="github" />
   <project path="device/htc/supersonic" name="CyanogenMod/android_device_htc_supersonic" remote="github" />
   <project path="device/htc/vision" name="CyanogenMod/android_device_htc_vision" remote="github" />
-  <project path="device/lg/eve" name="OpenSwift/android_device_lg_eve" remote="github" >
+  <project path="device/lg/eve" name="OpenEtna/android_device_lg_eve" remote="github" >
+  <project path="device/lg/swift" name="OpenSwift/android_device_lg_swift" remote="github" >
     <copyfile src="stack" dest="stack" />
     <copyfile src="buildspec.mk" dest="buildspec.mk" />
   </project>
