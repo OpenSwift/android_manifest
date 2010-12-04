@@ -4,6 +4,7 @@
            fetch="git://android.git.kernel.org/"
            review="review.source.android.com" />
   <remote name="github" fetch="git://github.com/" review="review.cyanogenmod.com" />
+  <remote name="githubpriv" fetch="ssh://github.com/" review="review.cyanogenmod.com" />
   <default revision="froyo"
            remote="korg" />
 
@@ -41,7 +42,7 @@
   <project path="device/htc/passion-common" name="CyanogenMod/android_device_htc_passion-common" remote="github" />
   <project path="device/htc/supersonic" name="CyanogenMod/android_device_htc_supersonic" remote="github" />
   <project path="device/htc/vision" name="CyanogenMod/android_device_htc_vision" remote="github" />
-  <project path="device/lg/swift" name="OpenSwift/android_device_lg_swift" remote="github" >
+  <project path="device/lg/swift" name="OpenSwift/android_device_lg_swift" remote="githubpriv" >
     <copyfile src="stack" dest="stack" />
     <copyfile src="buildspec.mk" dest="buildspec.mk" />
   </project>
