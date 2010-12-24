@@ -8,11 +8,11 @@
   <default revision="froyo"
            remote="korg" />
 
-  <project path="build" name="OpenSwift/android_build" remote="githubpriv">
+  <project path="build" name="OpenSwift/android_build" remote="github">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="bionic" name="OpenSwift/android_bionic" remote="githubpriv" />
+  <project path="bionic" name="OpenSwift/android_bionic" remote="github" />
 
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
@@ -42,7 +42,7 @@
   <project path="device/htc/passion-common" name="CyanogenMod/android_device_htc_passion-common" remote="github" />
   <project path="device/htc/supersonic" name="CyanogenMod/android_device_htc_supersonic" remote="github" />
   <project path="device/htc/vision" name="CyanogenMod/android_device_htc_vision" remote="github" />
-  <project path="device/lg/swift" name="OpenSwift/android_device_lg_swift" remote="githubpriv" >
+  <project path="device/lg/swift" name="OpenSwift/android_device_lg_swift" remote="github" >
     <copyfile src="stack" dest="stack" />
     <copyfile src="buildspec.mk" dest="buildspec.mk" />
   </project>
