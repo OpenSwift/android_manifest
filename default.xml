@@ -3,7 +3,8 @@
   <remote  name="korg"
            fetch="git://android.git.kernel.org/"
            review="review.source.android.com" />
-  <remote name="github" fetch="git://github.com/" review="review.cyanogenmod.com" />
+<remote name="githubpriv" fetch="git@github.com:" review="review.cyanogenmod.com" />
+
   <default revision="froyo"
            remote="korg" />
 
