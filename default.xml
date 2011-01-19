@@ -52,9 +52,10 @@
   <project path="device/samsung/bmlunlock" name="CyanogenMod/android_device_samsung_bmlunlock" remote="github" revision="master" />
   <project path="device/samsung/vibrant" name="CyanogenMod/android_device_samsung_vibrant" remote="github" revision="froyo-stable" />
   <project path="device/yuhua/x2" name="CyanogenMod/android_device_yuhua_x2" remote="github" revision="froyo-stable" />
-   <copyfile src="stack" dest="stack" />
-    <copyfile src="buildspec.mk" dest="buildspec.mk" />
   <project path="device/lg/swift" name="OpenSwift/android_device_lg_swift" remote="github" >
+  <copyfile src="stack" dest="stack" />
+    <copyfile src="buildspec.mk" dest="buildspec.mk" />
+  </project>
   <project path="external/alsa-lib" name="platform/external/alsa-lib" revision="master" />
   <project path="external/alsa-utils" name="platform/external/alsa-utils" revision="master" />
   <project path="external/apache-http" name="platform/external/apache-http" revision="master" />
