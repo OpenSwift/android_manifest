@@ -234,5 +234,7 @@
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
 
   <project path="vendor/cyanogen" name="OpenSwift/android_vendor_cyanogen" remote="github" />
+  <project path="android" name="OpenSwift/android_manifest" remote="github" revision="froyo" />
+
 
 </manifest>
